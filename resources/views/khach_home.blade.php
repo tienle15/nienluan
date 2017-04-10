@@ -129,14 +129,38 @@
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 	<div class="form-DatPhong">             
-	  
+	  <div class="col-xs-1 text-DatPhong text-center">
+	    <p>Ngày Đến</p>
+	  </div>
+	  <div class="col-xs-2">
+	    <div  class="input-group date" >
+	        <input class="form-control" type="text" readonly="" id="txtNgayDen" name="txtNgayDen" />
+	        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span> 
+	    </div> <!-- datepicker --> 
+	  </div>    
+	  <div class="col-xs-1 text-left text-DatPhong text-center">
+	    <p>Ngày Đi</p>
 	  </div>      
 	  <div class="col-xs-2">                
 	      <div class="input-group date" >
 	        <input class="form-control" type="text" readonly="" id="txtNgayDi" name="txtNgayDi" />
 	        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span> 
 	    </div> <!-- datepicker -->
-
+	  </div>
+	  <div class="col-xs-2 text-DatPhong">
+	    <p>Người Lớn</p> 
+	  </div>
+	  <div class="col-xs-1 col-xs-pull-1">
+	    <select name="cboNgLon" id="cboNgLon" class="form-control">
+	      <option value="1">1</option>
+	      <option value="2">2</option>
+	      <option value="3">3</option>
+	      <option value="4">4</option>
+	      <option value="5">5</option>
+	      <option value="6">6</option>
+	      <option value="7">7</option>
+	      <option value="8">8</option>
+	      <option value="9">9</option>
 	      <option value="10">10</option>
 	      <option value="11">11</option>
 	      <option value="12">12</option>
