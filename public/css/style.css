@@ -1,0 +1,345 @@
+body {
+		background-color: #b7b495;
+	}
+/* sideshow */
+.carousel-indicators {  
+	display: none;
+	bottom: 1px;
+}
+#miniCarousel img{
+	height: 350px;
+}
+
+/* /navbar */
+.navbar-brand {
+	padding-top: 5px;
+	padding-left: 25px;
+
+}
+#top-nav {
+	margin-bottom: 0px;
+	height: 70px !important;
+	background-color: #1E1E20;
+	border: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+	padding-right: 20px
+}
+
+#mainmenu{
+	padding-top: 15px;	
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #d9cb9e;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #dc3522;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+	color: #d9cb9e;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1E1E20;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #d9cb9e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition:  all .3s;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #d9cb9e;
+	color: #dc3522;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+    color: #dc3522;
+}
+
+
+
+
+
+
+#datepicker #datepicker2 > span:hover{cursor: pointer;}
+/* google map */
+#gamp_canvas {
+	height:500px;
+}
+#gmap_canvas img{
+	max-width: none !important;
+	background: none !important;
+}
+
+
+
+
+.panel-TrangChu {
+	padding: 20px 30px 20px 30px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #33332d;
+	font-size: 17px;
+	font-family: Verdana, Times, sans-serif;
+	line-height: 29px;
+	background-color: #fff;
+}
+.panel-GioiThieu, .panel-GopY{
+	margin-left: 20px; 
+	margin-right: 20px;
+	margin-bottom: 20px; 
+	padding: 5px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-family: Verdana, sans-serif; 
+	line-height: 24px;
+	
+}
+.panel-GioiThieu {
+	background-color: #fff;
+}
+.panel-KhuyenMai{
+	margin: 0px 10px 25px 10px;
+	padding: 0px;
+	color: #1e1e20;
+	background-color: #f2f2f2;
+	position: relative;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-family: Verdana, sans-serif; 
+	line-height: 24px;
+}
+.panel-GopY {
+	background-color: #faf6bd;
+	color: black;
+}
+
+.panel-GioiThieu img {
+	width: 100%;
+	height: 100%;	
+}
+.panel-KhuyenMai img {
+	width: 100%;
+	height: 300px;	
+}
+.panel-GioiThieu p , .panel-GopY p,.panel-KhuyenMai p{
+	margin: 20px 10px 20px 10px;
+}
+.panel-KhuyenMai h3 {
+	color: #046380;
+}
+
+
+
+.panel-DatPhong{
+	padding: 20px 20px 20px 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif; 
+	line-height: 25px;
+	background-color: #fff;
+}
+
+
+.panel-ChiTietPhong {
+	padding: 20px 20px 20px 20px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+	margin-top: 20px ; 
+	font-size: 16px;
+	font-family: Verdana, sans-serif; 
+	line-height: 25px;
+	background-color: #f6f6f6;
+}
+
+.panel-LoaiPhong, .panel-GioiThieuPhong {
+	text-align: center;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+	font-family: Arial, Times, sans-serif;
+	padding-bottom: 10px;
+	background-color: #fff;
+	}
+.panel-LoaiPhong img, .panel-GioiThieuPhong img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.panel-GioiThieuPhong .table-LoaiPhong {
+	margin: 10px;
+}
+.panel-GioiThieuPhong .table-LoaiPhong th{	
+	min-width: 110px;
+	font-weight: normal;
+}
+.panel-GioiThieuPhong .table-LoaiPhong td{
+	min-width: 200px
+}
+
+.panel-DichVu {
+	padding: 0px;
+	margin: 10px;
+	margin-bottom: 25px;
+	box-shadow: 0px 1px 5px rgba(10,10,10,0.3);
+	line-height: 25px;
+	font-family: Arial, Times, sans-serif;
+	color: #1e1e20;
+	font-size: 15px;
+	background-color: #f6f6f6;
+	height: 430px;
+}
+.panel-DichVu p {
+	padding: 5px;
+}
+
+.panel-DichVu img{
+	margin-bottom: 0px;
+	width: 100%;
+	height: 250px;
+	border-bottom: 1px solid gray;
+}
+
+.panel-DichVu h3 a{
+	position: static;
+	font-size: 25px;
+
+}
+
+.panel-DichVu a:hover, .panel-DichVu h2 a:hover{
+	text-decoration: none;
+	color: #dc3522;
+}
+
+.form-DatPhong {
+	padding: 12px 5px 15px 5px;	
+	background-color: #1e1e20;
+	height: 66px;
+	color: #D9cb9e;
+	border-top: 3px solid #dc3522;
+	border-bottom: 3px solid #dc3522;
+
+}
+
+.btn-outline {
+  color: inherit;
+  background-color: transparent;
+  transition: all .3s;
+}
+
+.btn-DatNgay{	
+	font-size: 20px;
+	background-color: #DC3522;
+}
+.btn-DatPhong{
+	font-size: 20px;
+	background-color: #fff;
+	border: 1px solid #dc3522;
+	color: #dc2522 !important;
+}
+.btn-DatPhong:hover{
+	background-color: #DC3522;
+	color: white !important;
+}
+
+.img-LoaiPhong {
+	border: 1px solid #1e1e20;
+}
+
+ .img-thumbnail {
+ 	margin-top: 10px;
+ }
+
+.text-DatPhong {
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 0px;
+
+}
+
+.text-LoaiPhong{
+	color: #3b2b3a;
+}
+
+
+/* footer */
+
+#footer, #footer a {
+	font-family:  Times, sans-serif;
+	background-color: #1e1e20;
+	color: #d9cb9e;
+	font-size: 18px;
+	line-height: 24px;
+	text-shadow: 0px 1px 1px black;
+}
+
+#footer {
+	border-top: 1px solid black;
+	padding: 0px 10px 10px 10px;
+	margin-top:  15px;
+}
+
+#footer a:hover{
+	text-decoration: none;
+
+}
+
+.table-LoaiPhong th{
+	
+	min-width: 160px;
+
+}
+.table-LoaiPhong td, .table-LoaiPhong th {
+	padding: 5px;
+}
+
+
+.tooltip {
+	font-size: 14px;
+	font-family: Verdana, sans-serif; 
+	
+}
+.tooltip-inner {
+	background-color: black;
+	color: #e4d295; 
+}
+
+.glyphicon-menu-right {
+	color: green;
+}
