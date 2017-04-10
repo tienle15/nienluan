@@ -129,18 +129,7 @@
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 	<div class="form-DatPhong">             
-	  <div class="col-xs-1 text-DatPhong text-center">
-	    <p>Ngày Đến</p>
-	  </div>
-	  <div class="col-xs-2">
-	    <div  class="input-group date" >
-	        <input class="form-control" type="text" readonly="" id="txtNgayDen" name="txtNgayDen" />
-	        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span> 
-	    </div> <!-- datepicker --> 
-	  </div>    
-	  <div class="col-xs-1 text-left text-DatPhong text-center">
-	    <p>Ngày Đi</p>
-	  </div>      
+	  
 	  <div class="col-xs-2">                
 	      <div class="input-group date" >
 	        <input class="form-control" type="text" readonly="" id="txtNgayDi" name="txtNgayDi" />
